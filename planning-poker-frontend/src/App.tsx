@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './App.css'
 
 const fetchData = async () => {
   const response = await fetch("https://meowfacts.herokuapp.com/");
