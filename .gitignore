@@ -1,0 +1,97 @@
+# Node modules
+node_modules/
+
+# Vite build output
+dist/
+
+# Temporary files
+*.tmp
+*.log
+*.lock
+*.cache
+
+# Vite cache
+.vite/
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS system files
+.DS_Store
+
+# Linux system files
+*.swp
+*.swo
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment files (sensitive information)
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# Yarn & npm lock files
+yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+pnpm-debug.log*
+
+# Build/Temp files
+build/
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+*.trace
+
+# Coverage reports
+coverage/
+
+# Storybook files
+.storybook/
+stories/
+
+# ESLint cache
+.eslintcache
+
+# Stylelint cache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel cache
+.cache/
+
+# Lerna files
+.lerna/
+
+# Husky hooks
+.husky/_
+
+# CI/CD files
+.github/
+.gitlab-ci.yml
+.circleci/
+
+# Custom directories
+custom-directory-1/
+custom-directory-2/
+*.custom-extension
+
+# Custom files (add your own patterns here)
+*.test-output
+*.example-config.json
+debug/
+test-results/
+
