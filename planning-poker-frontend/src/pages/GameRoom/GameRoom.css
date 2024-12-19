@@ -1,0 +1,94 @@
+.game-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.upper-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.user-avatar {
+  font-size: 2rem;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 1rem;
+}
+
+.user-status {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.user-status.voted {
+  color: green;
+}
+
+.user-status.not-voted {
+  color: red;
+}
+
+.user-score {
+  font-size: 1rem;
+  color: blue;
+}
+
+.lower-section {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+
+.selectable-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.selectable-card:hover {
+  transform: scale(1.1);
+}
+
+.selected {
+  border: 2px solid #007bff;
+  border-radius: 8px;
+}
+
+.action-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
